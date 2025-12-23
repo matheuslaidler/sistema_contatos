@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    min-height: 100vh;
+    color: #fff;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.container.wide {
+    max-width: 900px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.card {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.nav {
+    background: rgba(0,0,0,0.3);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: #4facfe;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.nav a:hover {
+    color: #00f2fe;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+    background: rgba(255,255,255,0.05);
+    color: #fff;
+    font-size: 16px;
+}
+
+input:focus, textarea:focus, select:focus {
+    outline: none;
+    border-color: #4facfe;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgba(255,255,255,0.5);
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button, .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    border: none;
+    border-radius: 8px;
+    color: #1a1a2e;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+button:hover, .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 20px rgba(79,172,254,0.4);
+}
+
+button.full {
+    width: 100%;
+}
+
+.mensagem {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.msg-sucesso {
+    background: rgba(40,167,69,0.2);
+    border: 1px solid #28a745;
+}
+
+.msg-erro {
+    background: rgba(220,53,69,0.2);
+    border: 1px solid #dc3545;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links a {
+    color: #4facfe;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+th {
+    background: rgba(79,172,254,0.2);
+    font-size: 0.85em;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+.empty {
+    text-align: center;
+    padding: 40px;
+    color: rgba(255,255,255,0.6);
+}
