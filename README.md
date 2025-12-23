@@ -44,6 +44,25 @@ Espero que tenha sido útil para alguém. Comecei a escrever o texto em 2024 e a
 
 ---
 
+## Arquivo .htaccess
+
+Se necessário, crie o arquivo .htaccess e salve:
+
+```text
+# Segurança básica inicial e URLs amigáveis
+Options -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+
+# Protege includes e arquivos sensíveis
+<FilesMatch "\.(inc|sql|bak|config|env|json|lock|md|yml|yaml)$">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+```
+
 ## Créditos
 
 Matheus Laidler
