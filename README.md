@@ -5,18 +5,20 @@
  > Projeto simples e pessoal que pode ser usado até como esqueleto de um projeto maior. Banco de Dados, PHP, Javascript, tudo feito de forma simples e fácil de entender, mantendo algumas boas práticas de segurança que evitam ataques como SQLi, XSS, RCE, etc (Tokens CSRF também foram apresentados nessa brincadeira).
 
 
- A minha publicação [Desenvolvimento Web na prática](https://matheuslaidler.github.io/posts/desenvolvimento-web-guia-pratico/) acaba introduzindo o básico de webdev com PHP, html, css e javascript "crus" (sem framework) e depois montando um projeto simples: 
-  - Um pequeno site para registro de mensagens/lembretes para/entre membros cadastrados.
+ A minha publicação [desenvolvimento web na prática com php](https://matheuslaidler.github.io/posts/desenvolvimento-web-guia-pratico/) acaba introduzindo o básico de webdev com PHP, html, css e javascript "crus" (sem framework) e depois montando um projeto simples: 
+  - Um pequeno site para registro de mensagens/lembretes (para membros cadastrados), através de um formulário que salva no banco de dados de forma sanatizada. 
 
  A ideia é mostrar sobre front-end, back-end, como funciona a autenticação dentro do site, uso de formulários, programação, direcionamentos e junto disso um insight sobre segurança de dados também, mostrando algumas boas práticas.
 
  Então, na publicação eu introduzo sobre o tema e vou ensinando como as coisas funcionam para que seja possível montar seu primeiro sistema web. Tendo este repertório a gente já parte para a prática: Desenvolvendo o primeiro sisteminha completo. 
  
- > Este repositório é o resultado deste primeiro sisteminha. 
+ > Este repositório é o resultado deste primeiro sisteminha completo. 
 
 Espero que tenha sido útil para alguém. Comecei a escrever o texto em 2024 e atualizando em 2025, upando este repositório aqui em mesma época.
 
 <img width="100%" alt="image" src="https://github.com/user-attachments/assets/20303205-8bb5-4f00-8f89-f1793f71d263" />
+
+> Nota: Importante dizer que cada usuário poderá ver apenas suas próprias mensagens criadas, por isso não tem problema em "mandar mensagem em nome de outra pessoa", no banco continua sendo do usuário correto.
 
  ---
 
